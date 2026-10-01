@@ -197,7 +197,7 @@ FlightMap {
         line.width: 3
         line.color: "red"
         z:          QGroundControl.zOrderTrajectoryLines
-        visible:    !pipMode
+        visible:    false
 
         Connections {
             target:                 QGroundControl.multiVehicleManager
