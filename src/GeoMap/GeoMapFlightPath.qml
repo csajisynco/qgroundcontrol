@@ -38,7 +38,7 @@ GeoMapItem {
         const anchor = _geometry.anchorCoordinate
         return QtPositioning.coordinate(anchor.latitude, anchor.longitude, anchor.altitude + _homeTerrainBias)
     }
-    visible: !!vehicle
+    visible: false
 
     // The geometry lives inside the 3D delegate (created/destroyed with the
     // scene); this bridges its anchor out for the coordinate binding above
